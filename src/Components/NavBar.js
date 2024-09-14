@@ -137,7 +137,7 @@ export default function NavBar(props) {
             <input
               className="form-control mr-sm-2"
               type="search"
-              placeholder="Search (Unavalible)"
+              placeholder="Search (Temp. Unavalible)"
               aria-label="Search"
             />
             <button
