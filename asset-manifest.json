@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rao-saab/static/css/main.e6c13ad2.css",
+    "main.js": "/rao-saab/static/js/main.a6c3038e.js",
+    "static/js/453.ed3810f9.chunk.js": "/rao-saab/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/rao-saab/index.html",
+    "main.e6c13ad2.css.map": "/rao-saab/static/css/main.e6c13ad2.css.map",
+    "main.a6c3038e.js.map": "/rao-saab/static/js/main.a6c3038e.js.map",
+    "453.ed3810f9.chunk.js.map": "/rao-saab/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a6c3038e.js"
+  ]
+}
