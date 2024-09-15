@@ -13,8 +13,8 @@ export default function Counter(props) {
     }
 
     const remove=()=>{
-        if (count===0)
-            setCounter(0)
+        if (count===-20)
+            setCounter(-20)
         else
             setCounter(count-1)
     }
@@ -39,8 +39,8 @@ export default function Counter(props) {
     <>
     <div id='counter' style={{ backgroundColor: props.style === 'light' ? 'white' : 'black', color: props.style === 'light' ? 'black' : 'white' }} >
     <div style={{ backgroundColor: props.style === 'light' ? 'white' : 'black', color: props.style === 'light' ? 'black' : 'white' }} className='p-5 container'>
-    <h1 style={{ backgroundColor: props.style === 'light' ? 'white' : 'black', color: props.style === 'light' ? 'black' : 'white' }}  >Add, Remove Numbers between 20.</h1>
-     <div style={{ backgroundColor: props.style === 'light' ? 'white' : '#343a40', color: props.style === 'light' ? 'black' : 'white' }}  className='border p-3'>
+    <h1 style={{ backgroundColor: props.style === 'light' ? 'white' : 'black', color: props.style === 'light' ? 'black' : 'white' }}  >Add, Remove Numbers between -20 to 20.</h1>
+     <div style={{ backgroundColor: props.style === 'light' ? '#f7f7f7' : '#343a40', color: props.style === 'light' ? 'black' : 'white' }}  className='border p-3'>
            <h2 className='text-center h1'>{count}</h2>
     <button onClick={add} className='btn btn-outline-success'>Add</button>
     <button onClick={remove} className='btn btn-outline-danger ml-2'>Remove</button>
