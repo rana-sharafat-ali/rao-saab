@@ -136,6 +136,8 @@ export default function NavBar(props) {
           <form className="form-inline my-2 my-lg-0">
             <input
               className="form-control mr-sm-2"
+              style={{backgroundColor:props.mode==="light"?"#f8f9fa":"#1D1D1D",color:props.mode==="light"?"black":"white"
+              }}
               type="search"
               placeholder="Search (Unavalible)"
               aria-label="Search"
